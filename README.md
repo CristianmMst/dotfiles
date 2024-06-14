@@ -1,8 +1,5 @@
 ## Neovim
 
-### Instalación
-
-
 ### Intalación y dependencias necesarias
 
 Para utilizar todas las funcionalidades de Neovim, es necesario instalar las siguientes dependencias:
