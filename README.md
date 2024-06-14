@@ -28,4 +28,8 @@ sudo pacman -S tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
+Crear un archivo **.tmux.conf** en el home y pegar el contenido de **.tmux.conf** de el repositorio en el archivo
 
+```bash
+touch ~/.tmux.conf
+```
