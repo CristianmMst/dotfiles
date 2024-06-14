@@ -16,7 +16,7 @@ git clone https://github.com/CristianmMst/nvim.git
 
 ## Tmux
 
-### Instalación,
+### Instalación.
 
 ```bash
 sudo pacman -S tmux
