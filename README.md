@@ -12,9 +12,7 @@ git clone https://github.com/CristianmMst/nvim.git
 
 ### Dependencias necesarias
 
-- **lazygit**
-- **node/npm**
-- **ripgrep**
+Para utilizar todas las funcionalidades de mi configuración de Neovim, es necesario instalar las siguientes dependencias:
 
 ```bash
 sudo pacman -S lazygit nodejs npm ripgrep
