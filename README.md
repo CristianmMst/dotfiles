@@ -22,7 +22,7 @@ git clone https://github.com/CristianmMst/nvim.git
 sudo pacman -S tmux
 ```
 
-### Instalación de Tmux Plugin Manager (TPM)
+### Instalar Tmux Plugin Manager (TPM)
 
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
