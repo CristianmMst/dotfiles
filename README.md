@@ -14,3 +14,11 @@ sudo pacman -S neovim lazygit nodejs npm ripgrep
 git clone https://github.com/CristianmMst/nvim.git
 ```
 
+## Tmux
+
+### Intalación
+
+```bash
+sudo pacman -S tmux
+```
+
