@@ -1,6 +1,6 @@
 ## Neovim
 
-### Intalación y dependencias necesarias
+### Instalación y dependencias necesarias
 
 Para utilizar todas las funcionalidades de Neovim, es necesario instalar las siguientes dependencias:
 
@@ -16,9 +16,16 @@ git clone https://github.com/CristianmMst/nvim.git
 
 ## Tmux
 
-### Intalación
+### Instalación
 
 ```bash
 sudo pacman -S tmux
 ```
+
+### Instalación de Tmux Plugin Manager (TPM)
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 
