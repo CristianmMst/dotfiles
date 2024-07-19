@@ -7,7 +7,6 @@
 #export ZSH="/home/$USER/.oh-my-zsh"
 #installation via paru -S oh-my-zsh-git
 export ZSH=/usr/share/oh-my-zsh/
-export KEY=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
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
