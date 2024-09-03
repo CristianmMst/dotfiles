@@ -139,6 +139,8 @@ alias mantenimiento="yay -Sc && sudo pacman -Scc"
 alias purga="sudo pacman -Rns $(pacman -Qtdq) ; sudo fstrim -av"
 alias update="paru -Syu --nocombinedupgrade"
 
+alias n="nvim"
+
 alias music="ncmpcpp"
 
 alias cat="bat --theme=base16"
