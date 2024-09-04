@@ -53,6 +53,10 @@ ctrl + super + alt + {p,r,q,l,k}
 super + shift + {h,l}
 	HideBar {-h,-u}
 
+# Theme Selector
+alt + @space
+  RiceSelector
+
 # Random wallpaper
 super + alt + w
 	WallSelect
