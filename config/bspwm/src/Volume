@@ -25,9 +25,9 @@ get_volume() {
 get_icon() {
   current="$(get_volume)"
   if [[ "$current" -eq "0" || "$current" == "muted" ]]; then
-    icon="$vol_dir/mute.png"
+    icon="$vol_dir/mute.svg"
   else
-    icon="$vol_dir/vol.png"
+    icon="$vol_dir/vol.svg"
   fi
 }
 
