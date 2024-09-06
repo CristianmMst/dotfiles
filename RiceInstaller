@@ -266,7 +266,7 @@ fi
 
 ########## ---------- Install AUR packages ---------- ##########
 
-aur_dependencias=(google-chrome papirus-icon-theme polybar-spotify-module)
+aur_dependencias=(google-chrome bibata-cursor-theme-bin polybar-spotify-module)
 
 is_installed_aur() {
     paru -Q "$1" &> /dev/null
