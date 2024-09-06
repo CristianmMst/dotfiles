@@ -79,7 +79,7 @@ logo "Installing needed packages.."
 
 dependencias=(alacritty thunar pavucontrol keepassxc lazygit ripgrep base-devel bat brightnessctl bspwm dunst eza feh gvfs-mtp git imagemagick jq \
 			        jgmenu libwebp maim mpc mpd neovim ncmpcpp npm pamixer pacman-contrib \
-			        papirus-icon-theme physlock picom playerctl polybar polkit-gnome python-gobject ranger \
+			        arc-gtk-theme papirus-icon-theme lxappearance physlock picom playerctl polybar polkit-gnome python-gobject ranger \
 			        redshift rofi rustup sxhkd tmux ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
 			        ttf-joypixels ttf-terminus-nerd ueberzug webp-pixbuf-loader xclip xdg-user-dirs \
 			        xdo xdotool xorg-xdpyinfo xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot \
@@ -263,6 +263,30 @@ else
         printf "\n%s%sFailed to install Paru. You may need to install it manually%s\n" "${BLD}" "${CRE}" "${CNC}"
     }
 fi
+
+########## ---------- Install AUR packages ---------- ##########
+
+aur_dependencias=(google-chrome papirus-icon-theme polybar-spotify-module)
+
+is_installed_aur() {
+    paru -Q "$1" &> /dev/null
+}
+
+printf "%s%sChecking for AUR packages...%s\n" "${BLD}" "${CBL}" "${CNC}"
+for paquete in "${aur_dependencias[@]}"; do
+    if ! is_installed_aur "$paquete"; then
+        if paru -S "$paquete" --noconfirm >/dev/null 2>> RiceError.log; then
+            printf "%s%s%s %shas been installed succesfully from AUR.%s\n" "${BLD}" "${CYE}" "$paquete" "${CBL}" "${CNC}"
+            sleep 1
+        else
+            printf "%s%s%s %shas not been installed correctly. See %sRiceError.log %sfor more details.%s\n" "${BLD}" "${CYE}" "$paquete" "${CRE}" "${CBL}" "${CRE}" "${CNC}"
+            sleep 1
+        fi
+    else
+        printf '%s%s%s %sis already installed from AUR!%s\n' "${BLD}" "${CYE}" "$paquete" "${CGR}" "${CNC}"
+        sleep 1
+    fi
+done
 
 # Installing tdrop for scratchpads
 if command -v tdrop >/dev/null 2>&1; then
