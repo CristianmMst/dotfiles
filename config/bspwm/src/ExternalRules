@@ -58,7 +58,7 @@ Transmission-gtk)
   result "desktop=^6 follow=on"
   ;;
 Spotify)
-  result "state=floating desktop=^6 follow=on center=on"
+  result "state=tailed desktop=^6 follow=on center=on"
   ;;
 esac
 

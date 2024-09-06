@@ -55,7 +55,7 @@ case "$1" in
   Term --nvim
   ;;
 --music)
-  Term --music
+  spotify
   ;;
 --fetch)
   Term --fetch
