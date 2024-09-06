@@ -78,7 +78,7 @@ clear
 logo "Installing needed packages.."
 
 dependencias=(alacritty thunar pavucontrol keepassxc lazygit ripgrep base-devel bat brightnessctl bspwm dunst eza feh gvfs-mtp git imagemagick jq \
-			        jgmenu libwebp maim mpc mpd neovim ncmpcpp npm pamixer pacman-contrib \
+			        jgmenu libwebp maim mpc mpd neovim ncmpcpp npm pamixer pacman-contrib unzip \
 			        arc-gtk-theme papirus-icon-theme lxappearance physlock picom playerctl polybar polkit-gnome python-gobject ranger \
 			        redshift rofi rustup sxhkd tmux ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
 			        ttf-joypixels ttf-terminus-nerd ueberzug webp-pixbuf-loader xclip xdg-user-dirs \
