@@ -29,7 +29,7 @@ set_padding() {
 
 is_eww_theme() {
     case "$current_rice" in
-        "z0mbi3"|"andrea")
+        "z0mbi3"|"andrea"|"cristian")
             return 0 ;;
         *)
             return 1 ;;
@@ -39,6 +39,7 @@ is_eww_theme() {
 get_eww_config_dir() {
     local base_dir="$HOME/.config/bspwm/rices/$current_rice"
     case "$current_rice" in
+        "cristian") echo "$base_dir/bar" ;;
         "z0mbi3") echo "$base_dir/bar" ;;
         "andrea") echo "$base_dir/andy" ;;
     esac
