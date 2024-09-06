@@ -77,7 +77,7 @@ clear
 
 logo "Installing needed packages.."
 
-dependencias=(alacritty google-chrome thunar pavucontrol keepassxc lazygit ripgrep base-devel bat brightnessctl bspwm dunst eza feh gvfs-mtp git kitty imagemagick jq \
+dependencias=(alacritty thunar pavucontrol keepassxc lazygit ripgrep base-devel bat brightnessctl bspwm dunst eza feh gvfs-mtp git imagemagick jq \
 			        jgmenu libwebp maim mpc mpd neovim ncmpcpp npm pamixer pacman-contrib \
 			        papirus-icon-theme physlock picom playerctl polybar polkit-gnome python-gobject ranger \
 			        redshift rofi rustup sxhkd tmux ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
