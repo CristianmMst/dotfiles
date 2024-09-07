@@ -158,8 +158,7 @@ scale trough {
 
 // Powermenu
 .powermenu {
-  font-family: Material Design Icons Desktop;
-  font-size: 1.4em;
+  font-family: JetBrainsMono NF;
   font-weight: bold;
 }
 
@@ -167,35 +166,20 @@ scale trough {
   margin: 0.2rem 0 0.2rem 0;
 }
 
-.button-bspres,
 .button-reb,
-.button-lock,
-.button-quit,
-.button-powermenu,
 .button-off {
-  color: $blue;
-  padding: 0.2rem;
-  font-size: 1.2rem;
-
-  background-repeat: no-repeat;
-  background-size: 22px;
-  min-height: 22px;
-  min-width: 7px;
-  margin: 0;
+  font-size: 1.2em;
+  padding: 0.2rem 0;
+  margin-left: -5px;
 }
 
 .button-reb {
   color: $yellow;
-  margin-left: -4px;
+  font-size: 1.4em;
 }
 
 .button-off {
   color: $red;
-  margin-left: -6px;
-}
-
-.button-lock {
-  color: $magenta;
 }
 
 .button-powermenu {

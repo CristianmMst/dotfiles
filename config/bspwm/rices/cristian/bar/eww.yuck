@@ -195,20 +195,6 @@
 			:space-evenly "false"
 
 	(button
-			:class "button-lock"
-			:tooltip "Lock Screen"
-			:onclick "physlock -d"
-      (label :text "󰌾")
-  )
-
-	(button
-			:class "button-bspres"
-			:tooltip "Suspend computer"
-			:onclick "systemctl suspend"
-      (label :text "󰒲")
-  )
-
-	(button
 			:class "button-reb"
 	  	:tooltip "Reboot"
 			:onclick "reboot"
