@@ -50,7 +50,7 @@ ctrl + super + alt + {p,r,q,l,k}
 	{systemctl poweroff, systemctl reboot,bspc quit,physlock -d,xkill}
 
 # Hide/Show Bar (Polybar and/or eww)
-super + shift + {h,l}
+super + alt + {h,l}
 	HideBar {-h,-u}
 
 # Theme Selector
@@ -72,10 +72,6 @@ super + alt + c
 # Screenshot
 super + shift + s
 	OpenApps --screenshot
-
-# Bluetooth
-super + alt + b
-	OpenApps --bluetooth
 
 # Manage brightness
 XF86MonBrightness{Up,Down}
@@ -121,7 +117,7 @@ ctrl + alt + h
 #####
 
 # Change focus of the Node or Swap Nodes
-shift + super {_,ctrl + }{Left,Down,Up,Right}
+super + {_,shift + }{1-9,0}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus or send to the given desktop
@@ -138,9 +134,9 @@ super + {comma,Tab}
 
 #####
 
-# preselect the direction
-super + {h,j,k,l}
-	bspc node -p {west,south,north,east}
+# preselect the direction / cancel
+super + shift + {h,j,k,l,space}
+	bspc node -p {west,south,north,east,cancel}
 
 # cancel the preselection for the focused node
 super + alt + space
