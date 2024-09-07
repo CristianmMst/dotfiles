@@ -117,7 +117,7 @@ ctrl + alt + h
 #####
 
 # Change focus of the Node or Swap Nodes
-super + {_,shift + }{1-9,0}
+super {_,ctrl + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus or send to the given desktop
