@@ -24,13 +24,13 @@ select-fg: #14171c;
 window {
     enabled:                     true;
     fullscreen:                  false;
-    width:                       100%;
+    width:                       90%;
     transparency:                "real";
     cursor:                      "default";
     spacing:                     0px;
     padding:                     0px;
     border:                      0px;
-    border-radius:               0px;
+    border-radius:               10px;
     border-color:                transparent;
     background-color:            transparent;
 }
