@@ -177,7 +177,8 @@ launch_theme() {
 
   # Launch eww bar
   sleep 0.1
-  eww -c "${HOME}"/.config/bspwm/rices/"${RICE}"/bar open --toggle bar
+  eww -c "${HOME}"/.config/bspwm/rices/"${RICE}"/bar open --toggle bar &
+  bspc config -m DisplayPort-0 left_padding 0
 
   # Fix eww,  when entering fullscreen state
   bspc subscribe node_state | while read -r _ _ _ _ state flag; do
