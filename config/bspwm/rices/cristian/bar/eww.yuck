@@ -170,7 +170,7 @@
 			:valign "end"
 	(eventbox :cursor "pointer"
 	(button	:onclick "OpenApps --calendar &"
-			:class "time-hour" "${formattime(EWW_TIME, "%H")}"))
+			:class "time-hour" "${formattime(EWW_TIME, "%I")}"))
 	(eventbox :cursor "pointer"
 	(button	:onclick "OpenApps --calendar &"
 			:class "time-min" "${formattime(EWW_TIME, "%M")}"))))
