@@ -65,7 +65,7 @@ case "$1" in
   thunar
   ;;
 --browser)
-  google-chrome-stable
+  microsoft-edge-stable
   ;;
 --editor)
   geany

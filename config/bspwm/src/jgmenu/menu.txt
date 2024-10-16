@@ -1,5 +1,5 @@
 Terminal,OpenApps --floating,terminal
-Web Browser,OpenApps --browser,google-chrome
+Web Browser,OpenApps --browser,microsoft-edge
 File Manager,OpenApps --filemanager,org.xfce.thunar
 ^sep()
 
@@ -19,7 +19,7 @@ Cristian,echo cristian > ~/.config/bspwm/.rice ; ~/.config/bspwm/rices/cristian/
 ^tag(favorites)
 Editor,OpenApps --editor,standard-notes
 Neovim,OpenApps --nvim,nvim
-Google,OpenApps --browser,google-chrome
+Edge,OpenApps --browser,microsoft-edge
 
 ^tag(wg)
 User Card,OpenApps --usercard,system-users
